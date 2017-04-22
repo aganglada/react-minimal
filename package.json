@@ -9,9 +9,8 @@
   "author": "Alejandro Garcia Anglada <aganglada@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2",
-    "react-router-dom": "^4.0.0"
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
   },
   "devDependencies": {
     "babel-core": "^6.22.1",

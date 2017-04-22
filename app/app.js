@@ -1,9 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {
-    BrowserRouter as Router,
-    Route
-} from 'react-router-dom';
 
 import Home from 'views/home/home';
 
@@ -11,12 +7,10 @@ import Header from 'components/header/header';
 
 const renderApp = () => {
     ReactDOM.render((
-        <Router>
-            <article id="🛳">
-                <Header title="Hello World" />
-                <Route path="/" component={Home} />
-            </article>
-        </Router>
+        <article id="🛳">
+            <Header title="Hello World" />
+            <Home />
+        </article>
     ), document.getElementById('root'));
 };
 
